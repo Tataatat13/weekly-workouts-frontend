@@ -1,0 +1,152 @@
+body {
+  background-image: url(./assets/10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+}
+h1 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: bold;
+  font-size: 160px;
+  color: #1230AE;
+}
+.bigBoxOfWeek {
+  display: flex;
+  justify-content: right;
+  margin-right: 200px;
+}
+.bigBoxOfInput {
+  border-radius: 20px;
+  border: 1px solid #FFB0B0;
+  border-color: transparent;
+  font-size: 20px;
+  margin: 15px;
+  padding: 15px;
+}
+.boxOfWeek {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.boxOfInput {
+  width: 30%;
+  height: 5vh;
+  border: 1px solid #FFB0B0;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  font-style: italic;
+  text-align: center;
+}
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FFB0B0;
+  box-shadow: 2px 2px 2px 2px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.boxOfGoals {
+  display: flex;
+  justify-content: space-around;
+}
+.boxOfChek {
+  display: flex;
+  flex-direction: column;
+}
+.goalsInput {
+  padding: 10px;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 3px;
+  background-color: #FFB0B0;
+}
+.boxOfLabel {
+  display: flex;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.boxOfNewText{
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.containerIcons {
+  display: flex;
+  align-items: center;
+}
+.bigBox {
+  display: flex;
+  justify-content: center;
+}
+.boxDayOfWeek {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerOfDay {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #1230AE;
+}
+.boxOfWater {
+  padding: 10px;
+}
+.nameOfDay {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #FFB0B0;
+}
+.weekBoxOfLabel {
+  display: flex;
+  justify-content: space-around;
+}
+.radio {
+  border-radius: 50%;
+  background-color: #FFB0B0;
+  width: 50%;
+  height: 5vh;
+  margin: 40px;
+}
+.boxOfRadio {
+  display: flex;
+  justify-content: center;
+}
+.boxOfNewWeek {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  width: 30%;
+  border-bottom: 1px solid #FFB0B0;
+}
+.addDay{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: #1230AE;
+}
+.headBoxOfGoals {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  color: #1230AE;
+}
