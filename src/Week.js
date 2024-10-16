@@ -20,7 +20,7 @@ const Week =()=> {
             <div>
                 <p className="boxOfWeek">Week of:</p>
 
-                <div>
+                
                     <input className="boxOfInput"
                     type="text"
                     placeholder="Add week..."
@@ -30,7 +30,7 @@ const Week =()=> {
                     <button className="btn"
                     onClick={NewWeek}
                     >Add</button>
-                </div>
+                
 
                 <div className="boxOfNewWeek">
                 <p className="addWeek">{addWeek}</p>
