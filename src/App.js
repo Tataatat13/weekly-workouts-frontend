@@ -61,7 +61,7 @@ const updatingInput = (_id, title)=>{
             <div className='containerOfDay'>
               <DaysOfWeek/>
               <div className="headBoxOfGoals">
-              {myGoal.map ((goal) => <MyFit text={goal.title} key={goal.id} 
+              {myGoal.map ((goal) => <MyFit text={goal.title} key={goal._id} 
               updatingInput={()=> updatingInput(goal._id, goal.title)}
               deleteGoal={()=> deleteGoal (goal._id, setGoal)} 
               /> )}
