@@ -2,6 +2,7 @@ body {
   background-image: url(./assets/10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .header {
   display: flex;
@@ -55,6 +56,7 @@ h3 {
 .boxOfGoals {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .boxOfChek {
   display: flex;
@@ -144,9 +146,29 @@ h4 {
   color: #1230AE;
 }
 .headBoxOfGoals {
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
   color: #1230AE;
+}
+@media all and (max-width: 500px) {
+  h1 {
+    font-size: 100px;
+  }
+  .nameOfDay {
+    font-size: 15px;
+  }
+  .containerOfDay {
+    width: 60%;
+  }
+  .radio {
+    display: none;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .boxOfWater {
+    padding: 3px;
+  }
 }
