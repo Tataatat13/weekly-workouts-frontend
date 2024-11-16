@@ -44,16 +44,16 @@ const Goals =()=>{
                                 <input type="checkbox" />
                                 <span className="checkmark"></span>
                                 <p className="boxOfNewText">{addText}</p> 
-                                <RiDeleteBin7Line onClick={()=> removeText(index)} />
+                                <RiDeleteBin7Line onClick={()=> removeText(index)} color="orange"  />
                             </label>
                 ))}
 
             </div>
 
             <div className="containerIcons">
-                <IoIosFitness size={70} />
-                <IoWatch size={70} />
-                <GiWeight size={70} />
+                <IoIosFitness size={70} color="orange" />
+                <IoWatch size={70} color="orange" />
+                <GiWeight size={70} color="orange" />
             </div>
 
     </div>
