@@ -1,19 +1,23 @@
 body {
-  background-image: url(./assets/10.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #1E3E62;
   background-position: center;
+}
+.App {
+  margin: 2rem 6rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 5px;
 }
 .header {
   display: flex;
   justify-content: center;
   height: 40vh;
+  
 }
 h1 {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: bold;
   font-size: 160px;
-  color: #1230AE;
+  color: #FF6500;
 }
 .bigBoxOfWeek {
   display: flex;
@@ -22,7 +26,7 @@ h1 {
 }
 .bigBoxOfInput {
   border-radius: 20px;
-  border: 1px solid #FFB0B0;
+  border: 1px solid #FF6500;
   border-color: transparent;
   font-size: 20px;
   margin: 15px;
@@ -35,7 +39,7 @@ h1 {
 .boxOfInput {
   width: 30%;
   height: 5vh;
-  border: 1px solid #FFB0B0;
+  border: 1px solid;
   border-radius: 20px;
   padding: 5px;
   margin: 5px;
@@ -46,12 +50,14 @@ h1 {
   padding: 10px;
   border: none;
   border-radius: 10px;
-  background-color: #FFB0B0;
+  background-color: #FF6500;
   box-shadow: 2px 2px 2px 2px;
+  color: black;
 }
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
+  color: #F8EDED;
 }
 .boxOfGoals {
   display: flex;
@@ -70,7 +76,6 @@ h3 {
   border: none;
   border-radius: 10px;
   box-shadow: 2px 2px 2px 3px;
-  background-color: #FFB0B0;
 }
 .boxOfLabel {
   display: flex;
@@ -81,10 +86,14 @@ h3 {
 .boxOfNewText{
   font-size: 15px;
   font-family: "Poppins", sans-serif;
+  color: #FF6500;
 }
 .containerIcons {
   display: flex;
   align-items: center;
+}
+.addWeek {
+  color: orange;
 }
 .bigBox {
   display: flex;
@@ -106,7 +115,7 @@ h3 {
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
-  color: #1230AE;
+  color: #FF6500;
 }
 .boxOfWater {
   padding: 10px;
@@ -115,15 +124,18 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 900;
-  color: #FFB0B0;
+  color: #FF6500;
 }
 .weekBoxOfLabel {
   display: flex;
   justify-content: space-around;
 }
+.boxOfWeek {
+  color: #F8EDED;
+}
 .radio {
   border-radius: 50%;
-  background-color: #FFB0B0;
+  background-color: orange;
   width: 50%;
   height: 5vh;
   margin: 40px;
@@ -137,22 +149,22 @@ h4 {
   justify-content: space-evenly;
   margin: 15px;
   width: 30%;
-  border-bottom: 1px solid #FFB0B0;
+  border-bottom: 1px solid #FF6500;
 }
 .addDay{
   font-size: 25px;
   font-style: italic;
   font-weight: bold;
-  color: #1230AE;
+  color: #B43F3F;
 }
 .headBoxOfGoals {
   font-size: 15px;
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
-  color: #1230AE;
+  color: #B43F3F;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 850px) {
   h1 {
     font-size: 100px;
   }
@@ -170,5 +182,11 @@ h4 {
   }
   .boxOfWater {
     padding: 3px;
+  }
+  .App {
+    margin: 1rem 3rem;
+  }
+  .bigBoxOfWeek {
+    margin-right: 0;
   }
 }
